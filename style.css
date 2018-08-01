@@ -1,0 +1,59 @@
+body {
+  background-color: rgba(0,0,0,0.12);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  /*width: 500px;*/
+  margin: 10 auto; /* This automatically sets left/right margins */
+  background: rgba(0,0,0,0.2);                          /* White background */
+  padding: 20px;                              /* Internal space */
+  border-radius: 3px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+}
+
+.card {
+  margin: 10 auto; /* This automatically sets left/right margins */
+  background: white;                          /* White background */
+  padding: 20px;                              /* Internal space */
+  border-radius: 3px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+}
+
+.banner {
+  background: #ad5389;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #3c1053, #ad5389);
+  background: -o-linear-gradient(right, #3c1053, #ad5389);
+  background: linear-gradient(to left, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header {
+  background-image: url("images/pexels-photo-304690.jpeg");
+}
+.profil {
+  border-radius: 50%;
+}
+
+a {
+  color: brown;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+}
